@@ -1,0 +1,8 @@
+langgraph==0.2.60
+langchain-core==0.3.28
+langchain-openai==0.2.14
+pydantic==2.10.4
+python-dotenv==1.0.1
+FlagEmbedding==1.4.2
+numpy==1.26.4
+pytest==8.3.4
