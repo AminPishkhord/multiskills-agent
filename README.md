@@ -28,7 +28,7 @@ Built as a prototype; not production-hardened (see [Known Limitations](#known-li
 ## How to run
 
 ### Prerequisites
-- Python 3.10+
+- Python 3.12
 - A free API key from [OpenRouter](https://openrouter.ai/keys)
 
 ### Install
