@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "clear-single (calculator)",
+    "prompt": "What is (45 + 12) * 3?",
+    "expected_skills": ["calculator"]
+  },
+  {
+    "id": 2,
+    "category": "clear-single (calculator, Persian)",
+    "prompt": "جذر ۸۱ به علاوه ۲ به توان سه چند میشه؟",
+    "expected_skills": ["calculator"]
+  },
+  {
+    "id": 3,
+    "category": "clear-single (translator)",
+    "prompt": "Translate 'Where is the nearest train station?' into Persian.",
+    "expected_skills": ["translator"]
+  },
+  {
+    "id": 4,
+    "category": "clear-single (translator, Persian source)",
+    "prompt": "این جمله رو به انگلیسی ترجمه کن: «امروز هوا خیلی خوبه»",
+    "expected_skills": ["translator"]
+  },
+  {
+    "id": 5,
+    "category": "clear-single (summarizer)",
+    "prompt": "Summarize this paragraph in one sentence: Renewable energy sources such as solar and wind power have grown rapidly over the past decade, driven by falling costs and government incentives, though grid storage and intermittency remain major technical challenges.",
+    "expected_skills": ["summarizer"]
+  },
+  {
+    "id": 6,
+    "category": "clear-single (summarizer, Persian)",
+    "prompt": "متن زیر رو خلاصه کن: شرکت‌های فناوری در سال‌های اخیر سرمایه‌گذاری زیادی در هوش مصنوعی انجام داده‌اند، اما نگرانی‌هایی درباره مصرف انرژی و اخلاق استفاده از این فناوری وجود دارد.",
+    "expected_skills": ["summarizer"]
+  },
+  {
+    "id": 7,
+    "category": "clear-single (general_chat)",
+    "prompt": "Hey! How's it going today?",
+    "expected_skills": ["general_chat"]
+  },
+  {
+    "id": 8,
+    "category": "clear-single (general_chat, Persian)",
+    "prompt": "سلام، حالت چطوره؟ امروز چیکار می‌کنی؟",
+    "expected_skills": ["general_chat"]
+  },
+  {
+    "id": 9,
+    "category": "multi-skill (summarize + translate)",
+    "prompt": "Summarize this text and then translate the summary to Persian: Electric vehicles are becoming more popular worldwide as battery prices fall and charging infrastructure expands, though concerns about battery recycling persist.",
+    "expected_skills": ["summarizer", "translator"]
+  },
+  {
+    "id": 10,
+    "category": "multi-skill (calculator + general_chat)",
+    "prompt": "Hi there! Also, quickly, what's 15% of 240?",
+    "expected_skills": ["calculator", "general_chat"]
+  },
+  {
+    "id": 11,
+    "category": "multi-skill (translate + calculator, Persian)",
+    "prompt": "این عدد رو حساب کن: ۲۵ ضربدر ۴، و بعدش بگو 'hello' به فارسی چی میشه؟",
+    "expected_skills": ["calculator", "translator"]
+  },
+  {
+    "id": 12,
+    "category": "ambiguous / general knowledge (no specific skill)",
+    "prompt": "What's the capital of Australia?",
+    "expected_skills": ["general_chat"]
+  },
+  {
+    "id": 13,
+    "category": "ambiguous (mentions numbers but no computation requested)",
+    "prompt": "I have 3 cats and 2 dogs, they're all so cute!",
+    "expected_skills": ["general_chat"]
+  },
+  {
+    "id": 14,
+    "category": "edge case (calculator word problem, English)",
+    "prompt": "If a shirt costs $40 and is 25% off, how much do I pay?",
+    "expected_skills": ["calculator"]
+  },
+  {
+    "id": 15,
+    "category": "edge case (vague/ambiguous request)",
+    "prompt": "Can you help me with this?",
+    "expected_skills": ["general_chat"]
+  }
+]
