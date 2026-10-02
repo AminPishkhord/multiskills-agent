@@ -276,7 +276,7 @@ Multiple layers, all converging on **General Chat**:
 parameters** total (Mixture-of-Experts, 3.6B active per forward pass; still ≤ 35B as
 required), free tier (`:free` suffix, $0/token).
 
-⚠️ This project's original default model, `qwen/qwen-2.5-32b-instruct:free`, was
+This project's original default model, `qwen/qwen-2.5-32b-instruct:free`, was
 retired by OpenRouter partway through development (a live run returned `400: ... is
 not a valid model ID`) - a real instance of the free-catalog volatility worth
 planning for, not a hypothetical. If `qwen/qwen3.8-27b:free` is also gone by the
